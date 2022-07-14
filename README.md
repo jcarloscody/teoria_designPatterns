@@ -96,10 +96,26 @@ que variam em módulos independentes, protegendo o resto do código de efeitos a
  - **Programe para uma interface, não uma implementação:** Dependa de abstrações, não classes concretas. Você pode perceber se o projeto é flexível o bastante se você pode estendê-lo facilmente sem quebrar o código existente.
  - **Prefira composição sobre herança:** temos problemas quando temos muitas classes e a mudança fica muito difícil, são eles:
    - *Uma subclasse não pode reduzir a interface da superclasse* vc acaba implementando todos os metodos abstratos da classe mãe mesmo q nao queira.
-   - 
+   - *Quando sobrescrevendo métodos você precisa se certificar que o novo comportamento é compatível com o comportamento base*
+   - *A herança quebra o encapsulamento da superclasse*
+   - *As subclasses estão firmemente acopladas as superclasses.*
+   - *Tentar reutilizar código através da herança pode levar a criação de hierarquias de heranças paralelas.*
 
+Há `uma alternativa para a herança chamada composição`. Enquanto a herança representa uma relação “é um(a)” entre classes (um carro é um transporte), a composição representa a
+relação “tem um(a)” (um carro tem um motor).
 
+> ## **`Princípios SOLID`**
+```
+SOLID -  projeto destinados a fazer dos projetos de software algo mais compreensivo, flexível, e sustentável.
 
+ Empenhar-se para seguir estes princípios é bom, mas sempre tente ser pragmático e não tome tudo que está escrito aqui como um dogma.
+```
 
+- **Single Responsibility Principle - (responsabilidade única)** 
+  - Uma classe deve ter apenas uma razão para mudar.
+  - fim: reduzir a complexidade.
+  - se uma classe faz muitas coisas, você terá que mudá-la cada vez que uma dessas coisas muda.
+
+p60
 
 
