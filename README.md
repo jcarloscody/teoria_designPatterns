@@ -105,7 +105,7 @@ Há `uma alternativa para a herança chamada composição`. Enquanto a herança 
 relação “tem um(a)” (um carro tem um motor).
 
 > ## **`Princípios SOLID`**
-```
+```sh
 SOLID -  projeto destinados a fazer dos projetos de software algo mais compreensivo, flexível, e sustentável.
 
  Empenhar-se para seguir estes princípios é bom, mas sempre tente ser pragmático e não tome tudo que está escrito aqui como um dogma.
