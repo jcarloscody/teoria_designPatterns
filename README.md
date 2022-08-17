@@ -1,5 +1,5 @@
 # **Padrões de Projeto**
-
+3pag
 - **`POO:`** paradigma que tem um conceito que envolve pedaços de dados e que portam comportamentos e estes forma uma coleção de objetos e são construídos sob um plano, as classes.
 - **`Classe:`** define a estrutura dos objetos.
 - **`Hierarquia de Classes:`**
@@ -118,6 +118,10 @@ algo mais compreensivo, flexível, e sustentável.
   - fim: reduzir a complexidade.
   - se uma classe faz muitas coisas, você terá que mudá-la cada vez que uma dessas coisas muda.
 
-p60
+- **pen/Closed Principle - (aberto/fechado)**
+  - As classes devem ser abertas para extensão, mas fechadas para modificação.
+  - fim: previnir a quebra quando novas implementações forem realizadas.
+  - Aberta: uma classe que pode ser herdada, possui métodos que podem ser sobrescritos.
+  - Fechada: classe completa. é fechada para modificação. não pode ser extendida.
 
-
+pag 64
