@@ -124,4 +124,11 @@ algo mais compreensivo, flexível, e sustentável.
   - Aberta: uma classe que pode ser herdada, possui métodos que podem ser sobrescritos.
   - Fechada: classe completa. é fechada para modificação. não pode ser extendida.
 
-pag 64
+- **iskov Substitution Principle (Princípio de substituição de Liskov)**
+  - Quando estendendo uma classe, lembre-se que você
+deve ser capaz de passar objetos da subclasse em lugar
+de objetos da classe mãe sem quebrar o código cliente.
+  - foi nomeado por Barbara Liskov, que o definiu em 1987
+em seu trabalho Data abstraction and hierarchy
+
+pag 68
