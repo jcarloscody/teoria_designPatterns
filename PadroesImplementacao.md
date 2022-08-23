@@ -1,4 +1,9 @@
 2 p
 
+# Padrões
 
-pag 17
+### **“Acho que acabei de escrever esse código...”**
+<br/>
+
+# Uma teoria de programação
+pag 20
