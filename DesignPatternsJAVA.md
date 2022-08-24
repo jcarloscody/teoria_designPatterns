@@ -23,5 +23,10 @@ pag 3
 ## Quando devo utilizar uma classe abstrata e quando devo utilizar uma interface?
 - Quando a abstração que precisar ser criada for um conceito, ou seja, algo que possa ser refinado e  espacializado, deve-se utilizar uma classe abstrata. Quando a abstração é um comportamento, ou seja, algo que uma classe deve saber fazer, então a melhor solução é a criação de uma interface.
 
+<br/>
+<br/>
+<br/>
 
-pag 28
+- O **polimorfismo** é na verdade uma consequência da utilização de herança e da utilização de interfaces.
+  - A palavra polimorfismo significa "múltiplas formas”, o que indica que um objeto pode assumir a forma de uma de suas abstrações
+pag 33
