@@ -131,4 +131,13 @@ de objetos da classe mãe sem quebrar o código cliente.
   - foi nomeado por Barbara Liskov, que o definiu em 1987
 em seu trabalho Data abstraction and hierarchy
 
-pag 68
+
+- **Interface Segregation Principle(Princípio de segregação de interface)**
+  - Clientes não devem ser forçados a depender de métodos que não usam.
+  - Os clientes devem implementar somente aqueles
+métodos que realmente precisam. Do contrário, uma mudança
+em uma interface “gorda” irá quebrar clientes que nem sequer
+usam os métodos modificados.
+
+
+p74
