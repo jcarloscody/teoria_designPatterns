@@ -6,4 +6,4 @@
 <br/>
 
 # Uma teoria de programação
-pag 20
+pag 22
