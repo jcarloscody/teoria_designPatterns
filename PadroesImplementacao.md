@@ -5,5 +5,11 @@
 ### **“Acho que acabei de escrever esse código...”**
 <br/>
 
-# Uma teoria de programação
-pag 22
+# Valores
+- Comunicação
+- Simplicidade
+- Flexibilidade
+  
+# Princípios
+- 
+pag 24
