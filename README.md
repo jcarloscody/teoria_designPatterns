@@ -139,5 +139,10 @@ métodos que realmente precisam. Do contrário, uma mudança
 em uma interface “gorda” irá quebrar clientes que nem sequer
 usam os métodos modificados.
 
+- **Dependency Inversion Principle (Princípio de inversão de dependência)**
+  - Classes de alto nível não deveriam depender de classes de baixo nível. Ambas devem depender de abstrações. As abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+    - Classes de baixo nível implementam operações básicas tais como trabalhar com um disco, transferindo dados pela rede, conectar-se a uma base de dados, etc.
+    - Classes de alto nível contém lógica de negócio complexa que direcionam classes de baixo nível para fazerem algo.
+
 
 p74
