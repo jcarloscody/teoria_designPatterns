@@ -45,6 +45,8 @@ um campo em uma classe
 > ## **`O que é um padrão de projeto?`**
 - são soluções típicas para problemas comuns em projeto de software.
 - Os padrões são soluções típicas para problemas comuns em projetos orientados a objetos. Quando uma solução é repetida de novo e de novo em vários projetos, alguém vai eventualmente colocar um nome para ela e descrever a solução em detalhe. É basicamente assim que um padrão é descoberto.
+- **CONJUNÇÃO**: solução + problema + contexto - aplicação de uma solução num problema para um contexto.
+-  **REFATORAÇÃO** , uma técnica no qual o código é reestruturado de forma a não haver modificação de seu comportamento. Nesse contexto, o código já foi desenvolvido porém apresenta algum tipo de deficiência em termos de projeto, situação conhecida como mau cheiro. Sendo assim, o código vai sendo alterado em pequenos passos até que se chegue ao padrão alvo
   
 <br/>
 
@@ -145,16 +147,16 @@ usam os métodos modificados.
     - Classes de alto nível contém lógica de negócio complexa que direcionam classes de baixo nível para fazerem algo.
 
 
-# Padrões de Projeto Criacionais
+# **Padrões de Projeto Criacionais**
 - Fornecem vários mecanismos de criação de objetos.
 
-## FACTORY METHOD :: Método fábrica, Construtor virtual
+### **FACTORY METHOD :: Método fábrica, Construtor virtual**
 - O padrão Factory Method sugere que você substitua chamadas diretas de construção de objetos (usando o operador new ) por chamadas para um método fábrica especial.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/factorymethod.png">
 
 - Porém, há uma pequena limitação: as subclasses só podem retornar tipos diferentes de produtos se esses produtos tiverem uma classe ou interface base em comum.
 
-<img src="">
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/factorymethodinterface.png">
 
 p84
