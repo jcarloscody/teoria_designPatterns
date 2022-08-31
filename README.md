@@ -145,4 +145,16 @@ usam os métodos modificados.
     - Classes de alto nível contém lógica de negócio complexa que direcionam classes de baixo nível para fazerem algo.
 
 
-p74
+# Padrões de Projeto Criacionais
+- Fornecem vários mecanismos de criação de objetos.
+
+## FACTORY METHOD :: Método fábrica, Construtor virtual
+- O padrão Factory Method sugere que você substitua chamadas diretas de construção de objetos (usando o operador new ) por chamadas para um método fábrica especial.
+
+<img src="">
+
+- Porém, há uma pequena limitação: as subclasses só podem retornar tipos diferentes de produtos se esses produtos tiverem uma classe ou interface base em comum.
+
+<img src="">
+
+p84
