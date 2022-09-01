@@ -29,5 +29,12 @@ pag 3
 
 - O **polimorfismo** é na verdade uma consequência da utilização de herança e da utilização de interfaces.
   - A palavra polimorfismo significa "múltiplas formas”, o que indica que um objeto pode assumir a forma de uma de suas abstrações
-  - 
+
+# Reuso Através de Herança
+- `“Entidades de software devem ser abertas a extensão, mas fechadas a modificação.” – Bertrand Meyer`
+
+> O potencial de reúso possível com herança está em outro local! Ele pode estar sim no reúso de código da superclasse, porém não é com a subclasse chamando métodos da superclasse, mas com a superclasse chamando código da subclasse.
+>   - isso permite que um mesmo algoritmo possa ser reutilizado com passos alterados
+
+
 pag 36
