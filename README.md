@@ -160,7 +160,7 @@ usam os métodos modificados.
 <img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/factorymethodinterface.png">
 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/factorymethodinterfacecomum.png">
 
 #### `Aplicabilidade`
 - Use o Factory Method quando **não souber de antemão** os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
