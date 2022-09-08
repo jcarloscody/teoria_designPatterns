@@ -1,3 +1,5 @@
+# [DESIGN PATTERNS](https://refactoring.guru/design-patterns)
+
 # **Padrões de Projeto**
 3pag
 - **`POO:`** paradigma que tem um conceito que envolve pedaços de dados e que portam comportamentos e estes forma uma coleção de objetos e são construídos sob um plano, as classes.
@@ -165,5 +167,20 @@ usam os métodos modificados.
 #### `Aplicabilidade`
 - Use o Factory Method quando **não souber de antemão** os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
 
+> Por exemplo, para adicionar um novo tipo de produto à aplicação, só será necessário criar uma nova subclasse criadora e substituir o método fábrica nela.
 
-p84
+```
+Vamos ver como isso funcionaria. Imagine que você escreva
+uma aplicação usando um framework de UI de código aberto.
+Sua aplicação deve ter botões redondos, mas o framework
+fornece apenas botões quadrados. Você estende a classe padrão Botão com uma gloriosa subclasse BotãoRedondo . Mas
+agora você precisa informar à classe principal UIFramework
+para usar a nova subclasse no lugar do botão padrão.
+Para conseguir isso, você cria uma subclasse
+UIComBotõesRedondos a partir de uma classe base do framework e sobrescreve seu método criarBotão . Enquanto
+este método retorna objetos Botão na classe base, você faz
+sua subclasse retornar objetos BotãoRedondo . Agora use a
+classe UIComBotõesRedondos no lugar de UIFramework . E é isso!
+
+```
+
