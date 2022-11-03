@@ -165,5 +165,12 @@ usam os métodos modificados.
 #### `Aplicabilidade`
 - Use o Factory Method quando **não souber de antemão** os tipos e dependências exatas dos objetos com os quais seu código deve funcionar.
 
+### **Abstract Factory :: Fábrica abstrata**
+- padrão criacional
+- é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
 
-p84
+
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/abstractFactory.png">
+
+
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/abstractFactory_estrutura.png">
