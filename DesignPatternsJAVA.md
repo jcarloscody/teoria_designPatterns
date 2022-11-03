@@ -37,4 +37,14 @@ pag 3
 >   - isso permite que um mesmo algoritmo possa ser reutilizado com passos alterados
 
 
-pag 36
+## HOOK METHOD
+
+<img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/hoock%20method.PNG">
+
+```
+A superclasse possui um método principal público que é invocado pelos seus clientes. 
+Esse método delega parte de sua execução para o hook method, que é um método abstrato que deve ser implementado pela subclasse. 
+Ele funciona como um “gancho” no qual uma nova lógica de execução para a classe pode ser “pendurada”.
+Cada subclasse o implementa provendo uma lógica diferente. Como essa lógica pode ser invocada a partir do mesmo método público, definido na superclasse, 
+os hook methods permitem que o objeto possua um comportamento diferente de acordo com a subclasse instanciada.
+```
