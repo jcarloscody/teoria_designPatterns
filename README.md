@@ -195,3 +195,10 @@ classe UIComBotõesRedondos no lugar de UIFramework . E é isso!
 
 
 <img src="https://raw.githubusercontent.com/jcarloscody/teoria_designPatterns/main/img/abstractFactory_estrutura.png">
+
+
+## BUILDER - ou construtor
+-  é um padrão de projeto criacional que permite a
+você construir objetos complexos passo a passo. O padrão
+permite que você produza diferentes tipos e representações de
+um objeto usando o mesmo código de construção.
