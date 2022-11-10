@@ -202,3 +202,12 @@ classe UIComBotõesRedondos no lugar de UIFramework . E é isso!
 você construir objetos complexos passo a passo. O padrão
 permite que você produza diferentes tipos e representações de
 um objeto usando o mesmo código de construção.
+
+
+## PROTOTYPE
+- tbm conhecido como protótipo ou clone
+- é um padrao de projeto criacional que permite copiar objetos existentes sem fazer seu codigo ficar dependentes de suas classes.
+- O padrão Prototype delega o processo de clonagem para o próprio objeto que está sendo clonado. O método cria um objeto da classe atual e
+carrega todos os valores de campo para do antigo objeto para
+o novo.
+- 
